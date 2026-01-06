@@ -15,6 +15,7 @@
     "start:worker": "node dist/workers/execute/worker.js",
     "start:ai-worker": "node dist/workers/ai/worker.js",
     "migrate": "tsx src/storage/migrate.ts",
+    "seed": "tsx scripts/seed.ts",
     "test": "vitest",
     "lint": "eslint src --ext .ts",
     "typecheck": "tsc --noEmit"
@@ -24,6 +25,7 @@
     "@fastify/cors": "^10.0.1",
     "awilix": "^12.0.5",
     "bullmq": "^5.30.1",
+    "dotenv": "^17.2.3",
     "fastify": "^5.1.0",
     "ioredis": "^5.4.1",
     "jsonata": "^2.0.5",
